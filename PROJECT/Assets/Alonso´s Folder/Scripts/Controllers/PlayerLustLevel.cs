@@ -2,21 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.UI;
 
 public class PlayerLustLevel : MonoBehaviour
 {
+    [SerializeField] private UIData UIData;
+
     private bool IsBeingAttacked;
     private RaycastHit hit;
     [SerializeField] private float RayLenght;
     [SerializeField] private LayerMask layerMask;
 
     public event Action EnemyIsComing;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -33,6 +30,7 @@ public class PlayerLustLevel : MonoBehaviour
 
                 StartCoroutine(ResetState(5f));
                 EnemyIsComing?.Invoke();
+                //UIData.OpenPanel();
             }
             else
             {
