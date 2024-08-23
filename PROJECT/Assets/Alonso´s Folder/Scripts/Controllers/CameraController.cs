@@ -17,11 +17,26 @@ public class CameraController : MonoBehaviour
     }
     private void OnEnable()
     {
-        Player.EnemyIsComing += SwitchCamera;
+        try
+        {
+            Player.EnemyIsComing += SwitchCamera;
+        }
+        catch
+        {
+
+        }
     }
     private void OnDisable()
     {
-        Player.EnemyIsComing -= SwitchCamera;
+        try
+        {
+            Player.EnemyIsComing -= SwitchCamera;
+
+        }
+        catch
+        {
+
+        }
     }
 
     // Update is called once per frame

@@ -32,7 +32,6 @@ public class GameManagerController : MonoBehaviour
     public void reachVignette()
     {
         StartCoroutine(ReachVignetteValue());
-        StartCoroutine(ChangeVolumeValue());
     }
     public IEnumerator ReachVignetteValue()
     {
@@ -41,15 +40,6 @@ public class GameManagerController : MonoBehaviour
             Volume.profile.TryGet(out Vignette vignette);
             vignette.intensity.value = Mathf.Lerp(vignette.intensity.value, 0.65f, 5 * Time.deltaTime);
             yield return null;
-        }
-    }
-    public IEnumerator ChangeVolumeValue()
-    {
-        while (true)
-        {
-            Volume.profile.TryGet(out Vignette vignette);
-            vignette.intensity.value = 0.8f;
-            yield return new WaitForSeconds(1f);
         }
     }
 }
