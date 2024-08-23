@@ -8,4 +8,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: "Assets/Alonso\xB4s Folder/Scenes/Avarice.unity"
+    guid: ea1d6d64cfd5e034383eea82496b71fd
+  - enabled: 1
+    path: "Assets/Alonso\xB4s Folder/Scenes/Heresy.unity"
+    guid: eedeba403f329ed43b6ce9dcc5161d83
+  - enabled: 1
+    path: "Assets/Alonso\xB4s Folder/Scenes/Intro.unity"
+    guid: 9fcb3cad1d4050e4c99630e2ae8e3bca
+  - enabled: 1
+    path: "Assets/Alonso\xB4s Folder/Scenes/Laziness.unity"
+    guid: 083b1a4544bd2ae42aab9906fcc0e4f4
+  - enabled: 1
+    path: "Assets/Alonso\xB4s Folder/Scenes/Limbo.unity"
+    guid: 471b58d915654814c8857dc842fb0f1c
+  - enabled: 1
+    path: "Assets/Alonso\xB4s Folder/Scenes/Lust.unity"
+    guid: d6f84233bc3f77740900c7a5f0ae11af
+  - enabled: 1
+    path: "Assets/Alonso\xB4s Folder/Scenes/Menu.unity"
+    guid: 74025563abf3d9f419975c9b921eaf1d
   m_configObjects: {}
