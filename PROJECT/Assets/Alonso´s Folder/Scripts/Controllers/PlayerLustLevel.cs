@@ -8,17 +8,19 @@ public class PlayerLustLevel : MonoBehaviour
 {
     [SerializeField] private UIData UIData;
 
-    private bool IsBeingAttacked;
+    [SerializeField] private bool IsBeingAttacked;
     private RaycastHit hit;
     [SerializeField] private float RayLenght;
     [SerializeField] private LayerMask layerMask;
+    [SerializeField] private GameObject button;
+
+    [SerializeField] private Slider Danger;
+    private float danger;
 
     public event Action EnemyIsComing;
-
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
-
+        danger = Danger.maxValue / 7f;
     }
     void FixedUpdate()
     {
@@ -30,11 +32,23 @@ public class PlayerLustLevel : MonoBehaviour
 
                 StartCoroutine(ResetState(5f));
                 EnemyIsComing?.Invoke();
-                //UIData.OpenPanel();
+                UIData.OpenPanel(button);
             }
             else
             {
                 Debug.DrawRay(transform.position, Vector3.back * RayLenght, Color.white);
+                IsBeingAttacked = false;
+            }
+        }
+
+        if (IsBeingAttacked)
+        {
+            UIData.OpenPanel(Danger.gameObject);
+            Danger.value = Mathf.Lerp(Danger.value, 0f, 0.5f * Time.deltaTime);
+            if (Danger.value > 0.75f)
+            {
+                UIData.ClosePanel(button.gameObject);
+                IsBeingAttacked = false;
             }
         }
     }
@@ -42,7 +56,17 @@ public class PlayerLustLevel : MonoBehaviour
     {
         IsBeingAttacked = true;
         yield return new WaitForSeconds(time);
-        IsBeingAttacked = false;
         EnemyIsComing?.Invoke();
+    }
+    public void AddToSlider()
+    {
+        Danger.value = Danger.value + danger;
+        if(Danger.value + danger >= 0.75f)
+        {
+            Rigidbody rb = GetComponent<Rigidbody>();
+            rb.AddForce(Vector3.up * 5f, ForceMode.Impulse);
+            rb.AddForce(Vector3.forward * 50f, ForceMode.Impulse);
+            Danger.value = 0;
+        }
     }
 }
