@@ -2122,6 +2122,8 @@ GameObject:
   m_Component:
   - component: {fileID: 940047450}
   - component: {fileID: 940047451}
+  - component: {fileID: 940047453}
+  - component: {fileID: 940047452}
   m_Layer: 0
   m_Name: 'Lujuria '
   m_TagString: Untagged
@@ -2196,6 +2198,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &940047452
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940047449}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.25, y: 14.4, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &940047453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940047449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4df2f2a5e858c0488e91e2c3922abf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneManager1: {fileID: 11400000, guid: 3b16cbdaf2f20034c81bb614a907d25b, type: 2}
+  Scene: Gula
 --- !u!1001 &976184468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2376,6 +2413,74 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 557402966}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1194029756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1194029759}
+  - component: {fileID: 1194029758}
+  - component: {fileID: 1194029757}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1194029757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194029756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4df2f2a5e858c0488e91e2c3922abf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneManager1: {fileID: 11400000, guid: 3b16cbdaf2f20034c81bb614a907d25b, type: 2}
+  Scene: Limbo
+--- !u!65 &1194029758
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194029756}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 100, y: 100, z: 50}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1194029759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194029756}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.7160344, y: -30.963171, z: 336.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1232882659
 GameObject:
   m_ObjectHideFlags: 0
@@ -4725,3 +4830,4 @@ SceneRoots:
   - {fileID: 1523716668}
   - {fileID: 1920345207}
   - {fileID: 976184468}
+  - {fileID: 1194029759}

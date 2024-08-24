@@ -809,7 +809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneManager1: {fileID: 11400000, guid: 3b16cbdaf2f20034c81bb614a907d25b, type: 2}
-  Scene: Laziness
+  Scene: Gula
 --- !u!65 &1448966696
 BoxCollider:
   m_ObjectHideFlags: 0
