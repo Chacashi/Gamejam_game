@@ -16,7 +16,7 @@ public class PlayerHeresyLevel : MonoBehaviour
     {
         if (badEnding)
         {
-            go.position = Vector3.Lerp(go.position, new Vector3(go.position.x, go.position.y + 25, go.position.z), 0.5f * Time.deltaTime);
+            go.position = Vector3.Lerp(go.position, new Vector3(go.position.x, go.position.y + 60, go.position.z), 0.5f * Time.deltaTime);
         }
     }
     void OnCollisionEnter(Collision other)

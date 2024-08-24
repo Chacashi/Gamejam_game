@@ -163,7 +163,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1.1999998}
+  m_AnchoredPosition: {x: 0, y: -3.37}
   m_SizeDelta: {x: 1463.8, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &222717157
@@ -186,26 +186,27 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Dise\xF1ador del Juego\nMarco Cortez\nProgramador\nMarco Cortez\nDise\xF1ador
-    de Nivel\nMarco Cortez\nEfectos en Shader\nMarco Cortez\nMusical e Iluminador\nMarco
-    Cortez\nProductor\nMarco Cortez\nProgramador\nJorge Zuniga\nUI\nJorge Zuniga\nDise\xF1o
-    del T\xEDtulo\nJorge Zuniga\nDise\xF1ador de Enemigos\nJorge Zuniga\nModelador
-    de Escenario\nJorge Zuniga\nGame Designer\nJorge Zuniga\nNarrativa\nJorge Zuniga\nEfectos
-    de Sonidos\nJorge Zuniga\nDirecci\xF3n Creativa\nJorge Zuniga\nProgramador\nAlonso
-    Torres\nDirector Creativo\nAlonso Torres\nProgramador Orientado a Objeto\nAlonso
-    Torres\nProgramador Recursivo\nAlonso Torres\nBase de Datos y Big Data\nAlonso
-    Torres\nPersonajes\nAlonso Torres\nGanador de la Gaviota Plateada 2022\nAlonso
-    Torres\nMayor Colaborador en Tiempo\nAlonso Torres\nEl que Menos Durmi\xF3\nAlonso
-    Torres\nA Pesar de las Adversidades Nunca Dej\xF3 la Gaviota Plateada\nAlonso
-    Torres\nCamar\xF3grafo\nAlonso Torres\nTomas Especiales\nAlonso Torres\nAnimaci\xF3n\nAlonso
-    Torres\nDirectora de Dise\xF1o 3D\nLucila Montoya\nTexturizadora Talentosa\nLucila
-    Montoya\nModeladora de Ambiente y Objetos\nLucila Montoya\nGame Designer\nLucila
-    Montoya\nNarrative Designer\nLucila Montoya\nLa que no Almorz\xF3\nLucila Montoya\nAgradecimientos
-    Especiales\nGracias por jugar y por acompa\xF1arnos en este viaje a trav\xE9s
-    de las sombras.\n"
+  m_text: "Dise\xF1ador del Juego\nMarco Cortez\n\nProgramador\nMarco Cortez\n\nDise\xF1ador
+    de Nivel\nMarco Cortez\n\nEfectos en Shader\nMarco Cortez\n\nMusical e Iluminador\nMarco
+    Cortez\n\nProductor\nMarco Cortez\n\nProgramador\nJorge Zuniga\n\nUI\nJorge Zuniga\n\nDise\xF1o
+    del T\xEDtulo\nJorge Zuniga\n\nDise\xF1ador de Enemigos\nJorge Zuniga\n\nModelador
+    de Escenario\nJorge Zuniga\n\nGame Designer\nJorge Zuniga\n\nNarrativa\nJorge
+    Zuniga\n\nEfectos de Sonidos\nJorge Zuniga\n\nDirecci\xF3n Creativa\nJorge Zuniga\n\nProgramador\nAlonso
+    Torres\n\nDirector Creativo\nAlonso Torres\n\nProgramador Orientado a Objeto\nAlonso
+    Torres\n\nProgramador Recursivo\nAlonso Torres\n\nBase de Datos y Big Data\nAlonso
+    Torres\n\nPersonajes\nAlonso Torres\n\nGanador de la Gaviota Plateada 2022\nAlonso
+    Torres\n\nMayor Colaborador en Tiempo\nAlonso Torres\n\nEl que Menos Durmi\xF3\nAlonso
+    Torres\n\nA Pesar de las Adversidades Nunca Dej\xF3 la Gaviota Plateada\nAlonso
+    Torres\n\nCamar\xF3grafo\nAlonso Torres\n\nTomas Especiales\nAlonso Torres\n\nAnimaci\xF3n\nAlonso
+    Torres\n\nDirectora de Dise\xF1o 3D\nLucila Montoya\n\nTexturizadora Talentosa\nLucila
+    Montoya\n\nModeladora de Ambiente y Objetos\nLucila Montoya\n\nGame Designer\nLucila
+    Montoya\n\nNarrative Designer\nLucila Montoya\n\nLa que no Almorz\xF3\nLucila
+    Montoya\n\nAgradecimientos Especiales\n\nGracias por jugar y por acompa\xF1arnos
+    en este viaje a trav\xE9s de las \nsombras.\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e45d3df83782ca549be4165fb24b6f59, type: 2}
+  m_sharedMaterial: {fileID: 1707013669159160565, guid: e45d3df83782ca549be4165fb24b6f59,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1749,7 +1750,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b7e78cb0032586448a92fcbf52399cd2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.09
+      value: -1.48
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b7e78cb0032586448a92fcbf52399cd2,
         type: 3}
@@ -1924,26 +1925,27 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Dise\xF1ador del Juego\nMarco Cortez\nProgramador\nMarco Cortez\nDise\xF1ador
-    de Nivel\nMarco Cortez\nEfectos en Shader\nMarco Cortez\nMusical e Iluminador\nMarco
-    Cortez\nProductor\nMarco Cortez\nProgramador\nJorge Zuniga\nUI\nJorge Zuniga\nDise\xF1o
-    del T\xEDtulo\nJorge Zuniga\nDise\xF1ador de Enemigos\nJorge Zuniga\nModelador
-    de Escenario\nJorge Zuniga\nGame Designer\nJorge Zuniga\nNarrativa\nJorge Zuniga\nEfectos
-    de Sonidos\nJorge Zuniga\nDirecci\xF3n Creativa\nJorge Zuniga\nProgramador\nAlonso
-    Torres\nDirector Creativo\nAlonso Torres\nProgramador Orientado a Objeto\nAlonso
-    Torres\nProgramador Recursivo\nAlonso Torres\nBase de Datos y Big Data\nAlonso
-    Torres\nPersonajes\nAlonso Torres\nGanador de la Gaviota Plateada 2022\nAlonso
-    Torres\nMayor Colaborador en Tiempo\nAlonso Torres\nEl que Menos Durmi\xF3\nAlonso
-    Torres\nA Pesar de las Adversidades Nunca Dej\xF3 la Gaviota Plateada\nAlonso
-    Torres\nCamar\xF3grafo\nAlonso Torres\nTomas Especiales\nAlonso Torres\nAnimaci\xF3n\nAlonso
-    Torres\nDirectora de Dise\xF1o 3D\nLucila Montoya\nTexturizadora Talentosa\nLucila
-    Montoya\nModeladora de Ambiente y Objetos\nLucila Montoya\nGame Designer\nLucila
-    Montoya\nNarrative Designer\nLucila Montoya\nLa que no Almorz\xF3\nLucila Montoya\nAgradecimientos
-    Especiales\nGracias por jugar y por acompa\xF1arnos en este viaje a trav\xE9s
-    de las sombras.\n"
+  m_text: "Dise\xF1ador del Juego\nMarco Cortez\n\nProgramador\nMarco Cortez\n\nDise\xF1ador
+    de Nivel\nMarco Cortez\n\nEfectos en Shader\nMarco Cortez\n\nMusical e Iluminador\nMarco
+    Cortez\n\nProductor\nMarco Cortez\n\nProgramador\nJorge Zuniga\n\nUI\nJorge Zuniga\n\nDise\xF1o
+    del T\xEDtulo\nJorge Zuniga\n\nDise\xF1ador de Enemigos\nJorge Zuniga\n\nModelador
+    de Escenario\nJorge Zuniga\n\nGame Designer\nJorge Zuniga\n\nNarrativa\nJorge
+    Zuniga\n\nEfectos de Sonidos\nJorge Zuniga\n\nDirecci\xF3n Creativa\nJorge Zuniga\n\nProgramador\nAlonso
+    Torres\n\nDirector Creativo\nAlonso Torres\n\nProgramador Orientado a Objeto\nAlonso
+    Torres\n\nProgramador Recursivo\nAlonso Torres\n\nBase de Datos y Big Data\nAlonso
+    Torres\n\nPersonajes\nAlonso Torres\n\nGanador de la Gaviota Plateada 2022\nAlonso
+    Torres\n\nMayor Colaborador en Tiempo\nAlonso Torres\n\nEl que Menos Durmi\xF3\nAlonso
+    Torres\n\nA Pesar de las Adversidades Nunca Dej\xF3 la Gaviota Plateada\nAlonso
+    Torres\n\nCamar\xF3grafo\nAlonso Torres\n\nTomas Especiales\nAlonso Torres\n\nAnimaci\xF3n\nAlonso
+    Torres\n\nDirectora de Dise\xF1o 3D\nLucila Montoya\n\nTexturizadora Talentosa\nLucila
+    Montoya\n\nModeladora de Ambiente y Objetos\nLucila Montoya\n\nGame Designer\nLucila
+    Montoya\n\nNarrative Designer\nLucila Montoya\n\nLa que no Almorz\xF3\nLucila
+    Montoya\n\nAgradecimientos Especiales\n\nGracias por jugar y por acompa\xF1arnos
+    en este viaje a trav\xE9s de las sombras.\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e45d3df83782ca549be4165fb24b6f59, type: 2}
+  m_sharedMaterial: {fileID: 1707013669159160565, guid: e45d3df83782ca549be4165fb24b6f59,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
