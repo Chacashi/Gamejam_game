@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class IntroCinematichManager : MonoBehaviour
 {
@@ -20,6 +21,8 @@ public class IntroCinematichManager : MonoBehaviour
     [SerializeField] AudioClip Crash;
     [SerializeField] AudioClip Brakes;
     [SerializeField] AudioClip HospitalMach;
+
+    [SerializeField] GameObject victim;
 
     // Start is called before the first frame update
     void Start()
@@ -58,5 +61,7 @@ public class IntroCinematichManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         audioSource.clip = HospitalMach;
         audioSource.Play();
+        yield return new WaitForSeconds(3f);
+        victim.SetActive(true);
     }
 }
